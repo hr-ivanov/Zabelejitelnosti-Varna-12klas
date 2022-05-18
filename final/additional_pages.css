@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+:root
+{
+	--fore-color: #EAEAEA;
+	/*--back-color: #FF8000;*/
+	--back-color: #00A0E3;
+	/*--back-color-desaturated: #FFA845;*/
+	--back-color-desaturated: #61bde3;
+	--fore-color-two: #FFF;
+}
+body
+{
+	background-color: var(--fore-color);
+}
+div.content
+{
+	background-color: var(--fore-color-two);
+	background-repeat: repeat-y;
+	display: inline-block;
+	margin-left: 15%;
+}
+div.contact
+{
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 1.8em;
+	text-align: right;
+}
+div.iztochnizi
+{
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 1.8em;
+	text-align: left;
+	font-weight: 300;
+}
+div.text_zab
+{
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	text-align: justify;
+	font-weight: 300;
+}
+hr.gray
+{
+	border: solid 1px gray;
+	width: 70%;
+	margin: auto;
+	clear: both
+}
+hr.gray2
+{
+	border: solid 2px gray;
+	width: 95%;
+	margin: auto;
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+img.logo
+{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+h2
+{
+	text-align: center;
+	font-family: Ubuntu, sans-serif;
+	color: black;
+	font-size: 3.4em;
+	font-weight: bold;
+	margin-top: 15px;
+}
+h3
+{
+	font-family: Ubuntu, sans-serif;
+	color: black;
+	font-size: 1.5em;
+	width: 60%;
+	margin-left: 0px;
+	text-align: left;
+}
+p.contactinfo
+{
+	text-align: justify;
+	font-family: Ubuntu, sans-serif;
+	color: black;
+	font-size: 1.1em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 60%;
+	margin-left: 0px;
+	font-weight: 300;
+}
+img.floatleft
+{
+	float: left;
+	margin: 0px 15px 15px 0px;
+}
+img.floatright
+{
+	float: right;
+	margin: 0px 0px 15px 15px;
+}
+img.contact
+{
+	width: 160px;
+	height: 160px;
+}
+img.al_man2
+{
+	width: 250px;
+	height: 140px;
+	float: right;
+	padding-left: 8px;
+	padding-top: 5px;
+}
+img.al_man4
+{
+	height: 160px;
+	width: auto;
+	float: left;
+	padding-right: 8px;
+	padding-top: 20px;
+}
+img.al_man
+{
+	height: 130px;
+	width: auto;
+	float: right;
+	padding-left: 8px;
+	padding-top: 20px;
+}
+img.al_man5
+{
+	height: 300px;
+	width: 380px;
+	padding-top: 10px;
+	padding-right: 10px;
+	float: left;
+}
+img.al_man3
+{
+	height: 300px;
+	width: 380px;
+	padding-top: 10px;
+	padding-left: 10px;
+	float: right;
+}
+img.arch_musei
+{
+	width: 350px;
+	height: 160px;
+	float: left;
+	padding-right: 8px;
+	padding-top: 5px;
+}
+img.arch_musei2
+{
+	width: 250px;
+	height: 120px;
+	float: right;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+img.arch_musei5
+{
+	width: 300px;
+	height: auto;
+	float: left;
+	padding-right: 8px;
+	padding-top: 20px;
+}
+img.arch_musei4
+{
+	width: 200px;
+	height: auto;
+	float: right;
+	padding-left: 8px;
+	padding-top: 20px;
+}
+img.arch_musei3
+{
+	width: 215px;
+	height: 145px;
+	float: left;
+	padding-right: 8px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+img.kat1
+{
+	width: 250px;
+	height: auto;
+	float: left;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+img.kat2
+{
+	width: 300px;
+	height: auto;
+	float: right;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+img.kat3
+{
+	width: 150px;
+	height: auto;
+	float: left;
+	padding-right: 8px;
+	padding-top: 20px;
+}
+img.mor_gara1
+{
+	width: 300px;
+	height: auto;
+	float: left;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+img.mor_gara2
+{
+	width: 300px;
+	height: auto;
+	float: right;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+img.mor_gara3
+{
+	width: 250px;
+	height: auto;
+	float: left;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+img.mor_gara4
+{
+	width: 250px;
+	height: auto;
+	float: right;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+img.pad_rest
+{
+	width: 350px;
+	height: auto;
+	float: right;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-bottom: 40px;
+}
+img.galata
+{
+	width: 300px;
+	height: auto;
+	float: left;
+	padding-right: 10px;
+	padding-top: 0px;
+	clear: both;
+}
+img.tvkula
+{
+	width: 35%;
+	height: auto;
+	float: right;
+	padding-left: 1%;
+	padding-top: 0.7%;
+	margin-bottom: 40px;
+}
+img.tvkula2
+{
+	width: 35%;
+	height: auto;
+	float: left;
+	padding-right: 1%;
+	padding-top: 0.4%;
+	clear: both;
+}
+img.pametnika
+{
+	width: 40%;
+	height: auto;
+	float: right;
+	padding-left: 1%;
+	padding-top: 0.7%;
+}
+img.aksakovo
+{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding-right: 1%;
+	padding-top: 0.5%;
+	margin-bottom: 20px;
+}
+img.galeria
+{
+	width: 100%;
+	margin-bottom: 20px;
+	height: auto;
+	transition: transform 0.5s;
+}
+div.galeria_right
+{
+	width: 40%;
+	float: right;
+	height: auto;
+}
+div.galeria_left
+{
+	width: 55%;
+	float: left;
+	height: auto;
+}
+img.galeria:hover
+{
+	transform: scale(120%, 120%);
+}
+iframe
+{
+	width: 100%;
+	height: 100%;
+}
+div.mes1
+{
+	float: left;
+	padding-bottom: 3%;
+}
+div.mes2
+{
+	float: right;
+	padding-bottom: 3%;
+}
+div.mes3
+{
+	width: 55%;
+	float: right;
+	padding-bottom: 3%;
+	text-align: right;
+}
+div.vrazka_zab
+{
+	clear: both;
+	margin-right: 10%;
+	text-align: right;
+	font-size: 100%;
+	color: red;
+}
+span.monospace
+{
+	font-family: 'Ubuntu Mono', monospace;
+}
+h4
+{
+	font-size: 1.2em;
+}
+h5
+{
+	font-size: 1em;
+	font-style: italic;
+	clear: both;
+}
+p.clearright
+{
+	clear: right;
+}
+p.clearleft
+{
+	clear: left;
+}
+a.normie
+{
+	font-weight: 500;
+	margin: 0px;
+}
